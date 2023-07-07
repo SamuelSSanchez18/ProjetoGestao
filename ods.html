@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="site.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body id="corpo">
+  <nav class="navbar navbar-dark bg-success fixed-top">
+    <div class="container-fluid">
+      <img class="foto"
+        src="https://png.pngtree.com/png-vector/20230213/ourmid/pngtree-tree-logo-in-circle-shaped-png-image_6595468.png">
+      <a class="navbar-brand" href="#">Os Renováveis</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <img class="icon" src="/imagens/livro.png">
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-success" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="Indrodução.html">Introdução</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Metodologia.html">Metodologia e confecção</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">O que são as ODS's?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conclusõesfinais.html">Conclusões Finais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="participantes.html">Participantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeriadefotos.html">Galeria de fotos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <h5 class="introducao">A interligação entre os objetivos de desenvolvimento sustentável é crucial para promover uma
+    melhoria prolongada e equitativa na sociedade, no diagrama abaixo, será possível entender alguns dos objetivos de
+    cada ODS apresentada neste projeto.
+  </h5>
+  <div class="diagrama">
+    <img class="venn" src="/imagens/diagrama.png" usemap="#diagrama">
+    <map name="diagrama">
+
+      <area shape="poly" coords="73,143,74,149,75,158,78,171,87,196,94,206,104,221,117,234,128,243,136,251,138,264,140,278,145,295,152,310,159,326,170,338,181,350,196,363,179,371,162,376,145,379,130,379,113,378,96,373,77,365,58,354,41,338,27,321,15,298,9,273,9,245,12,224,19,203,28,186,37,174,48,161,59,152,66,147
+      " alt="ODS4" title="Educação de Qualidade" class="modal-button" href="#myModal2">
+
+      <area shape="poly"
+        coords="327,144,339,152,350,161,361,173,371,187,378,201,385,220,390,240,390,265,385,290,376,312,364,331,349,348,329,363,306,373,285,378,257,379,237,375,219,370,201,362,214,353,227,341,239,236,249,308,257,289,261,268,262,253,276,243,291,230,305,213,316,193,323,175,326,159"
+        alt="ODS7" title="Energia acessível e limpa" class="modal-button" href="#myModal3">
+
+      <area shape="poly"
+        coords="75,141,77,121,81,101,93,76,114,50,135,33,163,20,189,15,214,15,236,20,259,29,278,42,296,59,310,80,320,100,326,125,326,141,311,135,287,128,266,126,241,128,219,134,200,143,185,135,160,127,135,124,109,128,89,134"
+        alt="ODS3" title="Saúde e Bem-estar" class="modal-button" href="#myModal1">
+
+      <area shape="poly"
+        coords="200,146,211,154,223,165,236,179,247,197,255,220,259,240,260,252,248,257,228,263,203,266,180,264,157,258,140,250,142,228,148,207,158,187,171,170,182,158,191,151"
+        alt="ODS8" title="Trabalho decente e crescimento econômico" class="modal-button" href="#myModal4">
+    </map>
+  </div>
+  <div id="myModal1" class="modal">
+    <div class="modal-content">
+      <div class="modal-header1">
+        <span class="close">&times;</span>
+        <h2 class="modalhead">ODS 3 - Saúde e Bem-estar</h2>
+      </div>
+      <div class="modal-body">
+        <p class="modaltext">Tem como objetivo, até 2030, reduzir em um terço a mortalidade
+          prematura por doenças não transmissíveis via prevenção e tratamento, promover a
+          saúde mental e o bem-estar, a saúde do trabalhador e da trabalhadora, e prevenir o
+          suicídio, alterando significativamente a tendência de aumento.</p>
+      </div>
+    </div>
+  </div>
+  <div id="myModal2" class="modal">
+    <div class="modal-content">
+      <div class="modal-header2">
+        <span class="close">&times;</span>
+        <h2 class="modalhead">ODS 4 - Educação de Qualidade</h2>
+      </div>
+      <div class="modal-body">
+        <p class="modaltext">Tem como objetivo, até 2030, garantir que todas as meninas
+          e meninos completem o ensino fundamental e médio, equitativo e de qualidade, na
+          idade adequada, assegurando a oferta gratuita na rede pública e que conduza a
+          resultados de aprendizagem satisfatórios e relevantes, e também, Até 2030, aumentar
+          substancialmente o número de jovens e adultos que tenham as competências
+          necessárias, sobretudo técnicas e profissionais, para o emprego, trabalho decente e
+          empreendedorismo.</p>
+      </div>
+    </div>
+  </div>
+  <div id="myModal3" class="modal">
+    <div class="modal-content">
+      <div class="modal-header3">
+        <span class="close">&times;</span>
+        <h2 class="modalhead">ODS 7 - Energia limpa e Accessível</h2>
+      </div>
+      <div class="modal-body">
+        <p class="modaltext">Tem como objetivo, até 2030, assegurar o acesso
+          universal, confiável, moderno e a preços acessíveis a serviços de energia.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="myModal4" class="modal">
+    <div class="modal-content">
+      <div class="modal-header4">
+        <span class="close">&times;</span>
+        <h2 class="modalhead">ODS 8 - Trabalho descente e Crescimento econômico</h2>
+      </div>
+      <div class="modal-body">
+        <p class="modaltext">
+          Tem como objetivo, até 2030, alcançar o emprego pleno e produtivo e trabalho decente todas as mulheres e
+          homens, inclusive para
+          os jovens e as pessoas com deficiência, e remuneração igual para trabalho de igual valor.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <audio id="musica" loop>
+    <source src="musicajogofinal.mpeg">
+  </audio>
+  <audio id="efeito">
+    <source src="cardflip.mpeg">
+  </audio>
+
+
+  <h5 class="introducao">Com o objetivo de demonstrar a interconexão entre os ODS's 3, 4
+    e 7 ao ODS8, disponibilizamos este jogo para passar o conhecimento de forma eficiente e divertida. O jogador
+    escolherá entre 3 dimensões para solucionar o problema, sendo recompensando de 1-3 pontos por resposta. Boa sorte! </h5>
+  <br />
+  <div class="botoes">
+    <button type="button" class="btn btn-outline-info" onclick="reniciar()">Começar o jogo</button>
+    <button type="button" class="btn btn-outline-danger" onclick="para()">Parar</button>
+  </div>
+  <div class="groups">
+    <div class="group">
+      <h1><strong>SAÚDE E BEM-ESTAR</strong></h1>
+      <br>
+      <p class="description">Selecione, no seu ponto de vista, qual das dimensões abaixo é mais efetiva para
+        solucionar a problemática apresentada:<br><strong>(Financeiro, Pessoas ou Infraestrutura)</strong></p>
+      <div class="cards">
+        <div class="card money3"
+          onclick="flipCard(this.parentNode, this, 3, 'Assegurar recursos adequados para o desenvolvimento e expansão dos serviços de saúde, visando o bem-estar físico e mental dos indivíduos. Investimentos financeiros no setor de saúde são necessários para sustentar a infraestrutura e favorecer o acesso aos programas de assistência à saúde.')">
+          <p class="text"></p>
+        </div>
+        <div class="card people1"
+          onclick="flipCard(this.parentNode, this, 1, 'Desenvolver e aprimorar a infraestrutura do setor de saúde possibilitando o acesso ao atendimento de qualidade, soluções voltadas para a inovação, humanização e personalização dos serviços, atendendo, de forma eficiente, a diversidade social e se adequando às necessidades de cada indivíduo, incluindo clínicas especializadas e unidades móveis de atendimento.')">
+          <p class="text small"></p>
+        </div>
+        <div class="card infra2"
+          onclick="flipCard(this.parentNode, this, 2, 'Capacitar os profissionais da área de saúde e promover a conscientização sobre a saúde mental, ampliando os serviços voltados para uma abordagem efetiva e de qualidade sobre os aspectos físicos e mentais relacionados à qualidade de vida.')">
+          <p class="text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h1><strong>EDUCAÇÃO DE QUALIDADE</strong></h1>
+      <br>
+      <p class="description">Selecione, no seu ponto de vista, qual das dimensões abaixo é mais efetiva para
+        solucionar a problemática apresentada:<br><strong>(Financeiro, Pessoas ou Infraestrutura)</strong></p>
+      <div class="cards">
+        <div class="card money3"
+          onclick="flipCard(this.parentNode, this, 3, 'Investir em programas de capacitação docente, integrando as novas tecnologias de informação e comunicação ao ambiente acadêmico. Uma educação de qualidade tende a favorecer a empregabilidade e o empreendedorismo, estimulando o crescimento econômico com emprego decente, garantindo a igualdade de oportunidades, independente da realidade socioeconômica do estudante.')">
+          <p class="text small"></p>
+        </div>
+        <div class="card people2"
+          onclick="flipCard(this.parentNode, this, 2, 'Melhorar os recursos materiais e humanos que alicerçam a qualidade da educação tanto dentro do estabelecimento de ensino quanto na infraestrutura local como, por exemplo, transporte e conectividade, garantindo acesso equitativo à educação. Portanto, a infraestrutura deve favorecer o ambiente escolar como espaço de aprendizagem, de pertencimento e de convívio social, enriquecendo a experiência e favorecendo a aprendizagem dos estudantes.')">
+          <p class="text small"></p>
+        </div>
+        <div class="card infra1"
+          onclick="flipCard(this.parentNode, this, 1, 'Criar parcerias entre as instituições de ensino com empresas locais e/ou organizações voltadas para qualificação do estudante, visando fornecer recursos adicionais, como: programas de estágio, palestras, cursos extracurriculares e orientação profissional. O acesso inclusivo e equitativo ao sistema educacional tende a favorecer o desenvolvimento de competências, a qualidade de vida e a participação ativa no âmbito social.')">
+          <p class="text small"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h1><strong>ENERGIA LIMPA E ACESSÍVEL</strong></h1>
+      <br>
+      <p class="description">Selecione, no seu ponto de vista, qual das dimensões abaixo é mais efetiva para
+        solucionar a problemática apresentada:<br><strong>(Financeiro, Pessoas ou Infraestrutura)</strong></p>
+      <div class="cards">
+        <div class="card money2"
+          onclick="flipCard(this.parentNode, this, 2, 'Reduzir os custos de energia, promover a eficiência energética, adotar fontes de energia renovável e criar oportunidades de emprego são medidas que tendem a favorecer o crescimento econômico inclusivo e sustentável. As políticas públicas devem estar voltadas para as especificidades de cada região, direcionando os investimentos financeiros de acordo com os resultados em termos de benefícios para a sociedade.')">
+          <p class="text small"></p>
+        </div>
+        <div class="card people1"
+          onclick="flipCard(this.parentNode, this, 1, 'Favorecer as fontes renováveis de energia, visando a melhoria da eficiência energética, implementação de sistemas descentralizados e acesso a tecnologias energéticas adequadas. Essas ações conjuntas requerem investimento, planejamento e desenvolvimento de infraestrutura condizente, para que, através do acesso à energia barata, confiável, sustentável e renovável, promova mudança na realidade socioeconômica das comunidades.')">
+          <p class="text small"></p>
+        </div>
+        <div class="card infra3"
+          onclick="flipCard(this.parentNode, this, 3, 'Garantir o fornecimento de energia para os serviços de saúde, água potável, saneamento básico adequado e promover o uso de energias limpas para a melhoria nas condições de saúde, redução da poluição do ar e o acesso universal à energia limpa e barata impacta, diretamente, a saúde e a qualidade de vida das pessoas, promovendo o desenvolvimento sustentável das comunidades.')">
+          <p class="text small"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="info">
+    <p class="pontuacao"><strong>Pontuação: </strong><span id="score">0</span></p>
+    <br />
+    <span style="color:white" id="conclusion"></p>
+  </div>
+
+
+  <div class="rodape">
+    <hr>
+    <p class="rodape">© 2023 - 2023 Os Renováveis | Sanchez, Lois, Barreiros, Leocadio & Cia Todas as
+      imagens de filmes, séries e etc
+      são marcas registradas dos seus respectivos proprietários.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
