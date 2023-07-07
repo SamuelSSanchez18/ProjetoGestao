@@ -1,0 +1,87 @@
+body{
+    padding-top: 130px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+}
+.offcanvas-title{
+    margin: auto;
+  }
+.foto{
+    width: 100px;
+    height: auto;
+}
+.icon{
+    width: 40px;
+    height: auto;
+    border: none;
+}
+.navbar-brand{
+    font-size:30px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+    border: none;
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large;
+}
+.coluna1{
+    text-align: center;
+}
+.coluna2{
+    text-align: center;
+}
+.coluna3{
+    text-align: center;
+}
+.coluna4{
+    text-align: center;
+}
+.fotos{
+    width: 400px;
+    padding: 17px;
+    transition: transform .2s;
+}
+.fotos:hover{
+    transform: scale(1.2)
+}
+.selfie{
+    width: 1175px;
+    height: 600px;
+}
+.rodape{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+@media only screen and (max-width: 1212px) {
+    .fotos{
+        width: 300px;
+    padding: 13px;
+    transition: transform .2s;
+    } 
+    .selfie{
+        width: 880px;
+        height: 400px;
+    }  
+}
+@media only screen and (max-width: 915px) {
+    .fotos{
+        width: 250px;
+    padding: 10px;
+    transition: transform .2s;
+    }
+    .selfie{
+        width: 738px;
+        height: 400px;
+    }     
+}
